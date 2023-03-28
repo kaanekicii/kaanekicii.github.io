@@ -40,13 +40,15 @@ h2, p { color: #666666; }
 
 .tm-logo-container {
     display: block;
-    padding: 30px;
-    width: 320px;
+    width: 220px;
     height: 160px;
 }
 
-.tm-site-logo { font-size: 3rem; }
-.tm-site-name { font-size: 1.9rem; }
+.tm-site-logo { font-size: 3rem;
+               width: 160px;
+               height:160px;
+            position:relative;}
+
 
 #tm-video-container {
     max-height: 720px;
