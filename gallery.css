@@ -30,7 +30,7 @@ html, body {
     align-items: center;
   }
   
-  img {
+  .imgn {
     z-index: 1;
     grid-column: span 2;
     max-width: 100%;
@@ -40,11 +40,11 @@ html, body {
     transition: all 0.25s;
   }
   
-  img:nth-child(7n + 1) {
+  .imgn:nth-child(7n + 1) {
     grid-column: 2 / span 2;
   }
   
-  img:hover {
+  .imgn:hover {
     z-index: 2;
     transform: scale(2);
   }
