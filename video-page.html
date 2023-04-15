@@ -18,6 +18,21 @@ https://templatemo.com/tm-552-video-catalog
 
 -->
 <body>
+	<div id="image-container">
+        <img id="image" src="img/loading.gif" alt="Resim">
+        <div id="loading-icon-container">
+            <div id="loading-icon"></div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript ile 5 saniye sonra resim ve yükleniyor simgesi kaldırılıyor
+        setTimeout(function() {
+            var imageContainer = document.getElementById("image-container");
+            imageContainer.style.display = "none";
+        }, 3000);
+    </script>
+
 	<div class="tm-page-wrap mx-auto">
 		<div class="position-relative">
 			<div class="potition-absolute tm-site-header">
