@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /fontawesome
+Disallow: /img
+Disallow: /js
+Disallow: /video
+Disallow: /gallery.css
+Disallow: /robots.txt
+Disallow: /sitemap.xml
+Allow: /about.html
+Disallow: /contact.html
+Allow: /gallery.html
+Allow: /index.html\
+Allow: /video-page.html
+Sitemap: https://kaanekicii.github.io//sitemap.xml
